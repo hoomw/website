@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+
+
+  body{text-align: center; margin:0 auto;
+  font-family: "Trebuchet MS",'Open Sans','맑은 고딕','Signika',Arial,verdana,sans-serif;}
+
+
+  img{width: 240px;
+     height: auto;
+    margin:35px; }
+
+  header{position:relative;}
+
+  content{font-size: 15px;}
+
+  .id{width:350px; height: 30px;}
+  .pass_1{width:350px; height: 30px;}
+  .pass_2{width:350px; height: 30px; margin-bottom: 25px;}
+
+  .name{width:350px; height: 30px; margin: 20px;}
+
+
+.birth{margin-right: 0px; }
+.year{margin-left: 0px; margin-right: 0px; width:105px; height: 30px;}
+.month{margin-left: 0px; margin-right: 0px; width:95px; height: 36px;}
+.day{margin-left: 0px; margin-right: 0px; width:105px; height: 30px;}
+
+.email{width:350px; height: 30px;}
+
+.number{width: 245px; height: 30px;}
+.button{width: 60px; height: 36px; border: none;}
+
+.space{margin-bottom: 15px;}
+
+.join{width:150px; height: 40px; margin-top: 15px; margin-bottom: 50px; border: none;}
+
+  </style>
+</head>
+<body>
+    <header>
+         <a href="index.html"><img src="img/logo.png" class="plan_b_"></a>
+    </header>
+
+    <content>
+      <form name="fo" method="get">
+
+          <div><input class="id" type="text" placeholder="아이디"></div>
+          <div><input class="pass_1" type="password" placeholder="비밀번호"></div>
+          <div><input class="pass_2" type="password" placeholder="비밀번호 재확인"></div>
+
+
+         <div><input class="name" type="text" placeholder="이름"></div>
+
+         <div>
+           <label><span><input class="sex" type="radio" name="sex" value="1">남자</span></label>
+
+           <label><span><input class="sex" type="radio" name="sex" value="2">여자</span></label></div>
+
+
+
+         <div class="space"> <span class="birth">생일<span>
+         <input class="year" type="text" placeholder="년(4자)">
+         <select class="month" name="month">
+          <option value>월</option>
+          <option value="1">1</option>
+          <option value="1">2</option>
+          <option value="1">3</option>
+          <option value="1">4</option>
+          <option value="1">5</option>
+          <option value="1">6</option>
+          <option value="1">7</option>
+          <option value="1">8</option>
+          <option value="1">9</option>
+          <option value="1">10</option>
+          <option value="1">11</option>
+          <option value="1">12</option>
+         </select>
+        <input class="day" type="text" placeholder="일"></div>
+
+        <div  class="space"><input class="email" type="text" placeholder="본인확인 이메일(선택)"></div>
+
+        <div  class="space"><span>+82 </span>
+        <input class="number" type="text" placeholder="휴대전화번호">
+        <input class="button" type="button" value="확인"></div>
+        <div><input class="id" type="text" placeholder="인증번호"></div>
+
+        <input class="join" type="submit" value="가입하기">
+      </form>
+    </content>
+    <footer>
+      <hr>
+        이용약관 개인정보처리방침 청소년보호정책 고객센터
+    </footer>
+</body>
+</html>

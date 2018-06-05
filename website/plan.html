@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <style>
+
+  .title{display:inline-block;
+            position:relative;
+            width:100%;height:300px;
+            margin:100px 10px 10px 10px;
+            padding:10px;
+          }
+
+  .title img{position:absolute; top:0; left: 15%;
+             margin-bottom: 18px;
+             z-index:-10;}
+
+      .h1{font:normal bold 50px consolas,sans-serif;
+          width:100%; margin-top: 200px; margin-bottom: 50px;
+        color: #080009;}
+      a{color: #000000; font-size:25px; font-weight: bold;
+        border: 0px solid; border-radius: 3%; background-color: #F9ECF8;}
+
+      .search, .button, .st {border:none}
+      .button{font-weight: bold;}
+      select{border:none}
+      span{display: inline-block; background-color:#E2D5E2;
+        font-weight: bold; border-radius: 5%; margin: 5px;}
+      .plan{display: inline-block; background-color: #ffffff;
+        width: 600px; height: 200px; margin-top: 300px; font-size: 25px;}
+
+      .country{margin-top: 30px;}
+      .st{width: 350px;}
+
+      .tit{width: 720px;}
+
+      .tag{margin-bottom: 45px;}
+
+      .button_1{width: 70px; height: 45px; font-weight: bold; font-size: 20px; border: none;}
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+       <h1>
+       <ul>
+       <li><a href="index.html"><img src="img/logo.png" class="plan_b_"></a></li>
+       <div class="menu"><li><a href="place.html">여행지</a></li>
+       <li><a href="plan.html">여행일정</a></li>
+       <li><a href="qna.html" >Q&A</a></li>
+       <li><a href="way.html">이용방법</a></li>
+       <li><div class="sch"><form class="form" name="search" method="get">
+         <input type="text"><input type="submit" value="검색"></form></div>
+
+       <li><a href="login.html" class="login" target="_blank">로그인</a></li>
+       <li><a href="signup.html" class="join" target="_blank">회원가입</a></li></h1></div>
+    </header>
+
+    <content>
+      <div class="title">
+        <div class="h1">쉽게 자신만의 일정을 만들어 보세요!</div>
+        <a href="">나의 일정보기</a>
+        <img src="img/plane.jpg" width="1200px" height="580px">
+      </div>
+
+    <div class="plan">
+      <div class="country"> <span class="nara">여행지</span>
+      <select class="in" name="in">
+       <option value>국내</option>
+       <option value="1">서울</option>
+       <option value="1">인천</option>
+       <option value="1">광주</option>
+       <option value="1">울산</option>
+       <option value="1">대구</option>
+       <option value="1">제주</option>
+       <option value="1">경주</option>
+       <option value="1">양평</option>
+       <option value="1">부산</option>
+       <option value="1">천안</option>
+       <option value="1">아산</option>
+       <option value="1">충주</option>
+      </select>
+      <select class="out" name="out">
+       <option value>해외</option>
+       <option value="1">네팔</option>
+       <option value="1">대만</option>
+       <option value="1">라오스</option>
+       <option value="1">그리스</option>
+       <option value="1">덴마크</option>
+       <option value="1">룩셈부르크</option>
+       <option value="1">스위스</option>
+       <option value="1">스페인</option>
+       <option value="1">뉴질랜드</option>
+       <option value="1">미국</option>
+       <option value="1">쿠바</option>
+       <option value="1">페루</option>
+      </select>
+      <input class="search" type="text" placeholder="여행지를 검색하세요.">
+      <input class="button" type="button" value="확인"> </div>
+
+      <div class="start"><span>출발일</span>
+      <input class="st" type="date" value="2018-06-04"> </div>
+
+      <div class="arrive"><span>도착일</span>
+      <input class="st" type="date" value="2018-06-04"> </div> </div>
+
+      <div><input class="tit" type="text" value="제목을 입력하세요."></div>
+      <div><textarea cols="100" rows="35">내용을 입력하세요.</textarea></div>
+      <div class="tag"><input class="tit" type="text" value="태그달기"></div>
+
+      <div><input class="button_1" type="button" value="저장"></div>
+    </content>
+    <footer>
+      <hr>
+        개인정보방침 및 이용약관
+        개인정보처리방침
+        개인정보공시
+        영상정보처리기기운영관리방침
+         e메일무단수집거부
+        예결산공고
+        등록금심의위원회
+        대학평의원회
+        자체평가
+        대학정보공시
+        청탁금지법
+        원격
+        08221 서울시 구로구 경인로 445 ([구]고척동 62-160) 동양미래대학교
+        TEL. 02-2610-1700
+        FAX. 02-2688-5494
+        COPYRIGHT 2015 Dongyang Mirae University. ALL RIGHTS RESERVED. MAIL TO webmaster@dongyang.ac.kr
+    </footer>
+  </div>
+</body>
+</html>

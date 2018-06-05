@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <style>
+  .singapore{margin-top:100px;}
+
+ .image img{width:600px;
+            height:400px;
+            margin:20px;
+            margin-right:100px;}
+  .tema {display:inline-block;
+                        position:relative;
+                        width:500px;height:155px;
+                        margin:10px;
+                        padding:10px;}
+
+ .tema img , .popular_list img {position:absolute; top:0; left:0;
+                                  height:100%;
+                                  width:100%;}
+
+  .tema_title {position:absolute;
+              text-align:center;
+              font:normal bold 30px consolas,sans-serif;
+              background-color:white;
+              color:#FE2E9A;
+              z-index: 10;
+             padding: center;}
+
+  .singapore_place , .popular_place {font:normal bold 40px Arial;
+                                      color:black;
+                                      float:left;
+                                      width:100%;}
+
+ .popular_list {display:inline-block;
+                position:relative;
+                width:350px;height:200px;
+                margin:10px;
+                padding:10px;}
+
+ .popular_list_title {position:absolute;
+                      text-align:center;
+                      font:normal bold 30px consolas,sans-serif;
+                      background-color:white;
+                      color:#FE2E9A;
+                      z-index: 10;
+                      padding: center;}
+
+   button{width:1000px;
+          height:80px;
+          margin-top: 50px;
+          font:normal bold 30px consolas,sans-serif;
+          background-color:#4CAF50;
+          border:none;
+          border-radius:5px;
+          color:white;
+          cursor:pointer;}
+  button:hover{background-color:green;}
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+       <h1>
+       <ul>
+       <li><a href="index.html"><img src="img/logo.png" class="plan_b_"></a></li>
+       <div class="menu"><li><a href="place.html">여행지</a></li>
+       <li><a href="plan.html">여행일정</a></li>
+       <li><a href="qna.html" >Q&A</a></li>
+       <li><a href="way.html">이용방법</a></li>
+       <li><div class="sch"><form class="form" name="search" method="get">
+         <input type="text"><input type="submit" value="검색"></form></div>
+
+       <li><a href="login.html" class="login" target="_blank">로그인</a></li>
+       <li><a href="signup.html" class="join" target="_blank">회원가입</a></li></h1><div>
+    </header>
+
+    <content>
+      <div class="singapore">
+        <div class="popular_place">싱가포르</div>
+          <div class="image">
+            <img src="img/singapore.jpg">
+            <img src="img/map.jpg">
+          </div>
+      </div>
+      <div class="tm">
+        <hr>
+        <div class="popular_place">여행 테마</div>
+        <div class="tema">
+          <a>
+            <div class="tema_title">랜드마크</div>
+            <img src="img/marina.jpg">
+          </a>
+        </div>
+        <div class="tema">
+          <a>
+            <div class="tema_title">관광명소</div>
+            <img src="img/singapore.jpg">
+          </a>
+        </div>
+        <div class="tema">
+          <a>
+            <div class="tema_title">음식/디저트</div>
+            <img src="img/toast.jpg">
+          </a>
+        </div>
+        <div class="tema">
+          <a>
+            <div class="tema_title">테마파크/동물원</div>
+            <img src="img/universal.png">
+          </a>
+        </div>
+        <div class="tema">
+          <a>
+            <div class="tema_title">쇼핑/거리</div>
+            <img src="img/clarke.jpg">
+          </a>
+        </div>
+      </div>
+
+      <div class="popular">
+        <hr>
+        <div class="popular_place">인기 장소</div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">가든스 바이 더 베이</div>
+            <img src="img/gardens.jpg">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">머라이언 타워</div>
+            <img src="img/singapore.jpg">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">클락 키</div>
+            <img src="img/clarke.jpg">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">유니버셜 스튜디오</div>
+            <img src="img/universal.png">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">마리나 베이 샌즈</div>
+            <img src="img/marina.jpg">
+        </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">나이트 사파리</div>
+            <img src="img/safari.jpg">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">센토사 섬</div>
+            <img src="img/sentosa.jpg">
+          </a>
+        </div>
+        <div class="popular_list">
+          <a>
+            <div class="popular_list_title">야쿤 카야토스트</div>
+            <img src="img/toast.jpg">
+          </a>
+        </div>
+      </div>
+
+      <button type="button">여행 일정 짜기</button>
+
+
+    </content>
+    <footer>
+      <hr>
+        개인정보방침 및 이용약관
+        개인정보처리방침
+        개인정보공시
+        영상정보처리기기운영관리방침
+         e메일무단수집거부
+        예결산공고
+        등록금심의위원회
+        대학평의원회
+        자체평가
+        대학정보공시
+        청탁금지법
+        원격
+        08221 서울시 구로구 경인로 445 ([구]고척동 62-160) 동양미래대학교
+        TEL. 02-2610-1700
+        FAX. 02-2688-5494
+        COPYRIGHT 2015 Dongyang Mirae University. ALL RIGHTS RESERVED. MAIL TO webmaster@dongyang.ac.kr
+    </footer>
+  </div>
+</body>
+</html>

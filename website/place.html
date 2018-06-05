@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <style>
+  .search_1{position:relative;
+            float:left;
+            display:inline-block;
+            width:100%;
+            margin-bottom:15px;}
+
+  .text{position:absolute;
+         font:normal bold 25px consolas,sans-serif;
+         text-decoration: none;
+         text-align:center;
+         padding-top: 450px;
+         padding-bottom:50px;
+         width:100%;
+         height:50px;}
+
+  .text input{height:50px;}
+
+  .st{width:50%;}
+
+
+  .korea_city , .abroad , .top_list_city  {display:inline-block;
+                                          position:relative;
+                                          width:300px;height:155px;
+                                          margin:10px;
+                                          padding:10px;}
+
+  .korea_city img , .abroad img , .top_list_city img {position:absolute; top:0; left:0;
+                                                      height:100%;
+                                                      width:100%;}
+
+  .korea_city_title , .abroad_title , .top_list_title {position:absolute;
+                                                        text-align:center;
+                                                        font:normal bold 30px consolas,sans-serif;
+                                                        color:#151515;
+                                                        background-color:white;
+                                                        z-index: 10;
+                                                        padding: center;}
+
+  .korea_place , .place_list , .top_list {font:normal bold 40px Arial;
+                                            color:black;
+                                            float:left;
+                                            width:100%;}
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+       <h1>
+       <ul>
+       <li><a href="index.html"><img src="img/logo.png" class="plan_b_"></a></li>
+       <div class="menu"><li><a href="place.html">여행지</a></li>
+       <li><a href="plan.html">여행일정</a></li>
+       <li><a href="qna.html" >Q&A</a></li>
+       <li><a href="way.html">이용방법</a></li>
+       <li><div class="sch"><form class="form" name="search" method="get">
+         <input type="text"><input type="submit" value="검색"></form></div>
+
+       <li><a href="login.html" class="login" target="_blank">로그인</a></li>
+       <li><a href="signup.html" class="join" target="_blank">회원가입</a></li></h1><div>
+    </header>
+    <content>
+      <div class="search_1">
+        <form class="text" name="search_1" method="get">
+          <input class="st"type="text" placeholder="원하는 여행지를 검색하세요.">
+          <input type="submit" value="검색">
+        </form>
+        <img src="img/sky.jpg" width="1200px" height="580px"></img>
+      </div>
+
+      <div class="korea">
+        <hr>
+        <div class="korea_place">국내 여행지</div>
+        <div class="korea_city">
+          <a href="singapore.html">
+            <div class="korea_city_title">서울</div>
+            <img src="img/seoul.jpg">
+          </a>
+        </div>
+        <div class="korea_city">
+          <a>
+            <div class="korea_city_title">제주</div>
+            <img src="img/jeju.jpg">
+          </a>
+        </div>
+        <div class="korea_city">
+          <a>
+            <div class="korea_city_title">부산</div>
+            <img src="img/busan.jpg">
+          </a>
+        </div>
+        <div class="korea_city">
+          <a>
+            <div class="korea_city_title">경주</div>
+            <img src="img/kyungju.jpg">
+          </a>
+        </div>
+        <div class="korea_city">
+          <a>
+            <div class="korea_city_title">전주</div>
+            <img src="img/junju.jpg">
+          </a>
+        </div>
+      </div>
+      <div class="abroad_list">
+        <hr>
+        <div class="place_list">국가 리스트</div>
+        <div class="abroad">
+          <a href="singapore.html">
+            <div class="abroad_title">아시아</div>
+            <img src="img/sanghai.png">
+          </a>
+        </div>
+        <div class="abroad">
+          <a>
+            <div class="abroad_title">유럽</div>
+            <img src="img/london.jpg">
+          </a>
+        </div>
+        <div class="abroad">
+          <a>
+            <div class="abroad_title">남태평양</div>
+            <img src="img/hawaii.jpg">
+          </a>
+        </div>
+        <div class="abroad">
+          <a>
+            <div class="abroad_title">북미</div>
+            <img src="img/usa.jpg">
+          </a>
+        </div>
+        <div class="abroad">
+          <a>
+            <div class="abroad_title">중남미</div>
+            <img src="img/mexico.jpg">
+          </a>
+        </div>
+      </div>
+      <div class="top_place">
+        <hr>
+        <div class="top_list">해외 인기 여행지</div>
+        <div class="top_list_city">
+          <a href="singapore.html">
+            <div class="top_list_title">싱가포르</div>
+            <img src="img/singapore.jpg">
+          </a>
+        </div>
+        <div class="top_list_city">
+          <a>
+            <div class="top_list_title">런던</div>
+            <img src="img/london.jpg">
+          </a>
+        </div>
+        <div class="top_list_city">
+          <a>
+            <div class="top_list_title">파리</div>
+            <img src="img/paris.jpg">
+          </a>
+        </div>
+        <div class="top_list_city">
+          <a>
+            <div class="top_list_title">홍콩</div>
+            <img src="img/hongkong.jpg">
+          </a>
+        </div>
+        <div class="top_list_city">
+          <a>
+            <div class="top_list_title">제주도</div>
+            <img src="img/jeju.jpg">
+          </a>
+        </div>
+      </div>
+    </content>
+    <footer>
+      <hr>
+        개인정보방침 및 이용약관
+        개인정보처리방침
+        개인정보공시
+        영상정보처리기기운영관리방침
+         e메일무단수집거부
+        예결산공고
+        등록금심의위원회
+        대학평의원회
+        자체평가
+        대학정보공시
+        청탁금지법
+        원격
+        08221 서울시 구로구 경인로 445 ([구]고척동 62-160) 동양미래대학교
+        TEL. 02-2610-1700
+        FAX. 02-2688-5494
+        COPYRIGHT 2015 Dongyang Mirae University. ALL RIGHTS RESERVED. MAIL TO webmaster@dongyang.ac.kr
+    </footer>
+  </div>
+</body>
+</html>
